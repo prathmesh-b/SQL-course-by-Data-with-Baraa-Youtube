@@ -1,0 +1,24 @@
+BASIC OF SQL consist (Beginner Level )
+
+learning order
+
+1) Introduction to SQL
+2) Query Data (SELECT)
+- SELECT
+- FROM
+- WHERE
+- ORDER BY
+- GROUP BY
+- HAVING
+- DISTINCT
+- TOP / LIMIT 
+
+3) Data Definition (DDL) 
+- CREATE
+- ALTER 
+- DROP
+
+4) Data Manipulation (DML) 
+- INSERT
+- UPDATE
+- DELETE

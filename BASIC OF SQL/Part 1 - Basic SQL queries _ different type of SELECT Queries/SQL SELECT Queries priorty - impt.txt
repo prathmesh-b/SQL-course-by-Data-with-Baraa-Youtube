@@ -1,0 +1,42 @@
+SELECT
+
+FROM
+
+WHERE
+
+GROUP BY
+
+ORDER BY
+---------------------------------------------
+/* tut 8 - mini proj so here going to create query to put all select queries what we learnt
+
+Execution order vs Coding Order
+
+--CODING ORDER--
+Coding order we do so that don't get error
+
+coding order executed is from TOP to Bottom
+SELECT DISTINCT    - to filter columns SELECT, to filter duplicates DISTINCT
+  Column 1,
+  SUM(Column 2)
+FROM Table
+WHERE Col = 10   - WHERE to filter rows before aggregation
+GROUP BY Col 1
+HAVING SUM(Col 2) > 30    - HAVING to filter rows after aggregation
+ORDER BY col 1 ASC
+LIMIT 3;          - to filter result rows
+
+-- SQL EXECUTION ORDER --
+here below see how sql execution take place
+
+1) FROM Table - so here first sql go to database and find table then
+2) WHERE query will be applied - it filter data and then 
+3) GROUP BY - it start combining similar values from rows and then aggregate data based
+on rules you have defined then
+4) HAVING condition will be applied and keep the rest
+5) SELECT DISTINCT - going to be execute
+6) ORDER BY - now it will sort the data and last
+7) TOP / LIMIT - will showcase no of top rows which you want
+
+
+So coding order is completely different then execution order

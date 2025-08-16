@@ -1,0 +1,28 @@
+SQL Roadmap to go from Beginner to Advance and Project
+
+learning order
+
+----BEGINNER LEVEL SQL ----
+
+1) Introduction to SQL
+2) Query Data (SELECT)
+- SELECT
+- FROM
+- WHERE
+- ORDER BY
+- GROUP BY
+- HAVING
+- DISTINCT
+- TOP / LIMIT 
+
+3) Data Definition (DDL) 
+- CREATE
+- ALTER 
+- DROP
+
+4) Data Manipulation (DML) 
+- INSERT
+- UPDATE
+- DELETE
+
+-- INTERMEDIATE LEVEL
