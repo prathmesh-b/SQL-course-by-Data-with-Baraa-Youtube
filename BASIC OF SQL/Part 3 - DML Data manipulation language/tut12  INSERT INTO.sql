@@ -25,10 +25,36 @@ VALUES (6, 'Anna', 'USA', Null),
 
 -- if you don't know value Null can be inserted but sometimes some data type not accept
       --(Null, 'Andrew', 'Denmark', 203)
-
+--OUTPUT OF above sql query
 -- here error showing can't insert Null in first column because primary key want something and can't be empty
 
-/*  SELECT * 
+/* run this code only
+SELECT * 
  FROM customers
-
  */
+/* RULES===
+Matching data types,column counts & constraints
+
+
+
+-- you can insert values with column name check below but always list columns 
+for clairity and maintainability
+
+INSERT INTO customers
+	VALUES
+	(9, 'Andreas', 'Germany', NULL)
+
+next sub lesson - 
+Columns not included in INSERT become NULL (unless a default or constraint exists)
+
+suppose we choose only two column to insert the value
+
+INSERT INTO customers(id, first_name)
+VALUES (10, 'Sahra')
+
+values will be inserted into columns mentioned and in other NULL will be stored
+
+
+
+
+*/
