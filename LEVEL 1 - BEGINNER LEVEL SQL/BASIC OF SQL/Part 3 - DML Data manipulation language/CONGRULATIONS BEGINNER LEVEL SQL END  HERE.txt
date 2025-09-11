@@ -1,0 +1,5 @@
+SO till this PART 3 DML data manipulation
+you have completed beginner level SQL 
+
+Now moving forward INTERMEDIATE LEVEL 
+starting from WHERE in depths

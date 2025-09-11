@@ -1,0 +1,7 @@
+DML data manipulation language
+How we do changes inside data manipulate inside database
+
+-INSERT using values
+here we can add rows to table of database
+
+we can insert the values manually by single values inside target table. it will be inserted as new rows to the table
