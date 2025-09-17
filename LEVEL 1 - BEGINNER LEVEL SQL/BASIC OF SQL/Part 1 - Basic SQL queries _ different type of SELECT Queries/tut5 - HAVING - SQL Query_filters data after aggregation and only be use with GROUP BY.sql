@@ -1,5 +1,5 @@
 /* tut5 - HAVING - SQL Query
-HAVING - Filters Data after Aggregation and only be used with GROUP BY
+HAVING - Filters Data after (GROUPING ACC TO SOME COMMON THING)Aggregation and only be used with GROUP BY
 
 Isn't WHERE Clause also work same? but WHERE is being used to filter or sort data
 before doing AGGREGATION
