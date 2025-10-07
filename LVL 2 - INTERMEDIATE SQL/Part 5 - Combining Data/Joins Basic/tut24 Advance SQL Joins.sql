@@ -140,4 +140,53 @@ FULL JOIN customers AS c
 ON c.id = o.customer_id
 WHERE c.id IS NULL OR o.customer_id IS NULL
 
--- continue from 13:21
+== USECASE ==
+check existience of data
+
+
+
+
+==== 4) ADVANCE INNER JOIN ====
+challenge to solve without using inner join
+
+===== TASK =====
+Get all customers along with their orders, but only for
+customers who have placed an order
+(WITHOUT USING INNER JOIN)
+
+
+SELECT *
+FROM customers AS c
+LEFT JOIN orders AS o
+ON c.id = o.customer_id
+WHERE o.customer_id IS NOT NULL
+
+
+
+
+==== 4) CROSS JOIN ====
+Combines every row from left with every row from right. all possible combinations  -Cartersian Join-
+
+A Table = Everything
+B Table = Everything
+
+suppose 2 rows from A Table  3 rows from B
+2 * 3 = 6 - total rows
+
+
+== Syntax ==
+SELECT *
+FROM A
+CROSS JOIN B
+
+
+== Task ==
+Generate all possible combinations of customers and orders.
+
+SELECT *
+FROM customers
+CROSS JOIN orders
+                        
+output
+here rule not apply so everything shows. this is use to see combination say product
+table with column table
